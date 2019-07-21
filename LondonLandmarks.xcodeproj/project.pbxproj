@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2909F27A22E49FE000102E3E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2909F27922E49FE000102E3E /* DetailViewController.swift */; };
+		2909F27D22E4A08300102E3E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2909F27C22E4A08300102E3E /* MapKit.framework */; };
 		2977F30C22E3B8CD0018B608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977F30B22E3B8CD0018B608 /* AppDelegate.swift */; };
 		2977F31122E3B8CD0018B608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2977F30F22E3B8CD0018B608 /* Main.storyboard */; };
 		2977F31322E3B8CF0018B608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2977F31222E3B8CF0018B608 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2909F27922E49FE000102E3E /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2909F27C22E4A08300102E3E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		2977F30822E3B8CD0018B608 /* LondonLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LondonLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2977F30B22E3B8CD0018B608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2977F31022E3B8CD0018B608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,17 +37,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2909F27D22E4A08300102E3E /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2909F27B22E4A08300102E3E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2909F27C22E4A08300102E3E /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2977F2FF22E3B8CD0018B608 = {
 			isa = PBXGroup;
 			children = (
 				2977F30A22E3B8CD0018B608 /* LondonLandmarks */,
 				2977F30922E3B8CD0018B608 /* Products */,
+				2909F27B22E4A08300102E3E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +75,7 @@
 				2977F30B22E3B8CD0018B608 /* AppDelegate.swift */,
 				2977F31D22E3BAEB0018B608 /* TableViewController.swift */,
 				2977F31F22E3BB390018B608 /* TableViewCell.swift */,
+				2909F27922E49FE000102E3E /* DetailViewController.swift */,
 				2977F30F22E3B8CD0018B608 /* Main.storyboard */,
 				2977F31222E3B8CF0018B608 /* Assets.xcassets */,
 				2977F31422E3B8CF0018B608 /* LaunchScreen.storyboard */,
@@ -145,6 +160,7 @@
 				2977F32022E3BB390018B608 /* TableViewCell.swift in Sources */,
 				2977F30C22E3B8CD0018B608 /* AppDelegate.swift in Sources */,
 				2977F31E22E3BAEB0018B608 /* TableViewController.swift in Sources */,
+				2909F27A22E49FE000102E3E /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
