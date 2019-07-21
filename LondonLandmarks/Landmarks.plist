@@ -9,6 +9,12 @@
 		<string>London SW1A 0AA</string>
 		<key>Image</key>
 		<string>BigBen</string>
+		<key>Description</key>
+		<string>Big Ben is the nickname for the Great Bell of the clock at the north end of the Palace of Westminster in London and is usually extended to refer to both the clock and the clock tower.</string>
+		<key>Latitude</key>
+		<string>51.50072919999999</string>
+		<key>Longitude</key>
+		<string>-0.12462540000001354</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -17,6 +23,12 @@
 		<string>London SW1A 1AA</string>
 		<key>Image</key>
 		<string>BuckinghamPalace</string>
+		<key>Description</key>
+		<string>Buckingham Palace is the London residence and administrative headquarters of the monarch of the United Kingdom. Located in the City of Westminster, the palace is often at the centre of state occasions and royal hospitality. </string>
+		<key>Latitude</key>
+		<string>51.501364</string>
+		<key>Longitude</key>
+		<string>-0.1418899999999894</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -25,6 +37,12 @@
 		<string>London SE1 7PB</string>
 		<key>Image</key>
 		<string>LondonEye</string>
+		<key>Description</key>
+		<string>The London Eye is a giant Ferris wheel on the South Bank of the River Thames in London.</string>
+		<key>Latitude</key>
+		<string>51.503324</string>
+		<key>Longitude</key>
+		<string>-0.1195430000000215</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -33,6 +51,12 @@
 		<string>London EC4M 8AD</string>
 		<key>Image</key>
 		<string>St-Pauls</string>
+		<key>Description</key>
+		<string>St Paul&apos;s Cathedral, London, is an Anglican cathedral, the seat of the Bishop of London and the mother church of the Diocese of London. It sits on Ludgate Hill at the highest point of the City of London and is a Grade I listed building.</string>
+		<key>Latitude</key>
+		<string>51.5138453</string>
+		<key>Longitude</key>
+		<string>-0.0983506000000034</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -41,6 +65,12 @@
 		<string>London SE1 2UP</string>
 		<key>Image</key>
 		<string>TowerBridge</string>
+		<key>Description</key>
+		<string>Tower Bridge is a combined bascule and suspension bridge in London built between 1886 and 1894. The bridge crosses the River Thames close to the Tower of London and has become an iconic symbol of London.</string>
+		<key>Latitude</key>
+		<string>51.50516</string>
+		<key>Longitude</key>
+		<string>-0.07557599999995546</string>
 	</dict>
 	<dict>
 		<key>Name</key>
@@ -49,6 +79,12 @@
 		<string>London SW1P 3PA</string>
 		<key>Image</key>
 		<string>WestminsterAbbey</string>
+		<key>Description</key>
+		<string>The Westminster Abbey Museum was located in the 11th-century vaulted undercroft beneath the former monks&apos; dormitory in Westminster Abbey, London, England.</string>
+		<key>Latitude</key>
+		<string>51.4992921</string>
+		<key>Longitude</key>
+		<string>-0.12730970000006891</string>
 	</dict>
 </array>
 </plist>

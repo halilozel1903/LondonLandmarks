@@ -105,6 +105,9 @@ class TableViewController: UITableViewController {
                 let item = self.items[indexPath.row]
                 
                 dvc.sentData1 = item["Name"]
+                dvc.sentData2 = item["Address"]
+                dvc.sentData3 = item["Image"]
+                dvc.sentData4 = item["Description"]
             }
         }
         

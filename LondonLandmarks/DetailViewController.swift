@@ -19,6 +19,9 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var detailMapView: MKMapView!
     
     var sentData1 : String!
+    var sentData2 : String!
+    var sentData3 : String!
+    var sentData4 : String!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,6 +29,11 @@ class DetailViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         self.navigationItem.title = sentData1
+        
+        detailTitle.text = sentData1
+        detailDescription.text = sentData2
+        detailImage.image = UIImage(named: sentData3)
+        detailTextView.text =  sentData4
     }
     
 
