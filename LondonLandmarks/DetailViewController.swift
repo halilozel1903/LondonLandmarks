@@ -22,6 +22,9 @@ class DetailViewController: UIViewController {
     var sentData2 : String!
     var sentData3 : String!
     var sentData4 : String!
+    var sentData5 : String!
+    var sentData6 : String!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +37,20 @@ class DetailViewController: UIViewController {
         detailDescription.text = sentData2
         detailImage.image = UIImage(named: sentData3)
         detailTextView.text =  sentData4
+        
+        let span = MKCoordinateSpan(latitudeDelta: 0.005, longitudeDelta: 0.005)
+        let region = MKCoordinateRegion(center: CLLocationCoordinate2DMake(Double(sentData5)!, Double(sentData6)!), span: span)
+        
+        detailMapView.setRegion(region, animated: true)
+        
+        let pinLocation : CLLocationCoordinate2D = CLLocationCoordinate2DMake(Double(sentData5)!, Double(sentData6)!)
+        
+        let pinAnn = MKPointAnnotation()
+        pinAnn.coordinate = pinLocation
+        pinAnn.title = sentData1
+        pinAnn.subtitle = sentData2
+        
+        self.detailMapView.addAnnotation(pinAnn)
     }
     
 
@@ -47,6 +64,9 @@ class DetailViewController: UIViewController {
     }
     */
     @IBAction func directions(_ sender: Any) {
+        
+        UIApplication.shared.open(URL(string: "http://maps.apple.com/maps?daddr=\(Double(sentData5)!),\(Double(sentData6)!)")!, options: [:], completionHandler: nil)
+        
         
     }
     

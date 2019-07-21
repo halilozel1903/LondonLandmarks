@@ -24,7 +24,9 @@ class TableViewController: UITableViewController {
 
       self.items = loadPlist()
         
-        self.tableView.rowHeight = 100
+      self.tableView.rowHeight = 100
+        
+      self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: UIBarButtonItem.Style.plain, target: self, action: nil)
     }
 
     // MARK: - Table view data source
@@ -108,6 +110,9 @@ class TableViewController: UITableViewController {
                 dvc.sentData2 = item["Address"]
                 dvc.sentData3 = item["Image"]
                 dvc.sentData4 = item["Description"]
+                dvc.sentData5 = item["Latitude"]
+                dvc.sentData6 = item["Longitude"]
+
             }
         }
         
