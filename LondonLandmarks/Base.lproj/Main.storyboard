@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CO0-Aa-80G">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--London Landmarks-->
+        <scene sceneID="Giz-UO-Cmz">
+            <objects>
+                <tableViewController id="SHR-ua-3xv" customClass="TableViewController" customModule="LondonLandmarks" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zyU-0t-d4h">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" rowHeight="100" id="OXu-D0-XgU" customClass="TableViewCell" customModule="LondonLandmarks" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="414" height="100"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="OXu-D0-XgU" id="T8R-1L-y2H">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="99.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7f7-ad-YpM">
+                                            <rect key="frame" x="20" y="5" width="123" height="89"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="7f7-ad-YpM" secondAttribute="height" multiplier="123:89" id="oVm-9u-idC"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytU-zt-gQ9">
+                                            <rect key="frame" x="170" y="11" width="224" height="31"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="18"/>
+                                            <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XsL-6W-0q5">
+                                            <rect key="frame" x="170" y="58" width="224" height="31"/>
+                                            <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="17"/>
+                                            <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="XsL-6W-0q5" firstAttribute="leading" secondItem="7f7-ad-YpM" secondAttribute="trailing" constant="27" id="5K4-hg-IFN"/>
+                                        <constraint firstItem="7f7-ad-YpM" firstAttribute="top" secondItem="T8R-1L-y2H" secondAttribute="topMargin" constant="-6" id="7Q9-Aq-iYZ"/>
+                                        <constraint firstItem="XsL-6W-0q5" firstAttribute="trailing" secondItem="T8R-1L-y2H" secondAttribute="trailingMargin" id="Ce4-EK-X8t"/>
+                                        <constraint firstItem="XsL-6W-0q5" firstAttribute="width" secondItem="ytU-zt-gQ9" secondAttribute="width" id="PCV-qg-4Xu"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="7f7-ad-YpM" secondAttribute="bottom" constant="-5" id="QrD-dx-fvd"/>
+                                        <constraint firstItem="XsL-6W-0q5" firstAttribute="top" secondItem="ytU-zt-gQ9" secondAttribute="bottom" constant="16" id="RdL-Ak-Ady"/>
+                                        <constraint firstItem="XsL-6W-0q5" firstAttribute="height" secondItem="ytU-zt-gQ9" secondAttribute="height" id="TBi-4r-5U4"/>
+                                        <constraint firstItem="ytU-zt-gQ9" firstAttribute="trailing" secondItem="T8R-1L-y2H" secondAttribute="trailingMargin" id="VQz-Vb-QOh"/>
+                                        <constraint firstItem="ytU-zt-gQ9" firstAttribute="leading" secondItem="7f7-ad-YpM" secondAttribute="trailing" constant="27" id="XDj-qm-kAM"/>
+                                        <constraint firstItem="7f7-ad-YpM" firstAttribute="leading" secondItem="T8R-1L-y2H" secondAttribute="leadingMargin" id="h8K-8O-IXP"/>
+                                        <constraint firstItem="ytU-zt-gQ9" firstAttribute="top" secondItem="T8R-1L-y2H" secondAttribute="topMargin" id="tXR-mc-KBv"/>
+                                        <constraint firstItem="XsL-6W-0q5" firstAttribute="bottom" secondItem="T8R-1L-y2H" secondAttribute="bottomMargin" id="vjV-7c-GwH"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="cellDescription" destination="XsL-6W-0q5" id="1wr-Zq-oMp"/>
+                                    <outlet property="cellImage" destination="7f7-ad-YpM" id="z2y-yw-CZ4"/>
+                                    <outlet property="cellTitle" destination="ytU-zt-gQ9" id="9MF-Dg-Fqu"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="SHR-ua-3xv" id="7TJ-sP-yGF"/>
+                            <outlet property="delegate" destination="SHR-ua-3xv" id="X93-Ii-lw5"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="London Landmarks" id="Jby-UJ-d0U"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="032-Yo-ABc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="872.46376811594212" y="-93.080357142857139"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JEa-Sc-d97">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CO0-Aa-80G" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="ppm-ia-5Oy">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="20"/>
+                            <color key="textColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="SHR-ua-3xv" kind="relationship" relationship="rootViewController" id="bVk-92-Wcd"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y9I-Yh-3rj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-37.681159420289859" y="-93.080357142857139"/>
+        </scene>
+    </scenes>
+</document>
