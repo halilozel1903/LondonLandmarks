@@ -1,4 +1,4 @@
-# London Landmarks 🇬🇧
+# London Landmarks 🇬🇧 🗺 🧭
 
 <img src="https://github.com/halilozel1903/LondonLandmarks/blob/master/Screenshots/london.jpg"/>
 
