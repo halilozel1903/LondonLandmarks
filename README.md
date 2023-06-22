@@ -17,7 +17,6 @@ There is a picture and address of the place to visit in each cell.
 <img src="https://github.com/halilozel1903/LondonLandmarks/blob/master/Screenshots/St-Pauls%20Detail.png" width="290" /><img src="https://github.com/halilozel1903/LondonLandmarks/blob/master/Screenshots/Tower%20Bridge%20Detail.png" width="290" /><img src="https://github.com/halilozel1903/LondonLandmarks/blob/master/Screenshots/Westminster%20Detail.png" width="290"/><br>
 The detail page includes the picture, description and location of the place to visit.
 
-
 ### Map Screens 🗺
 <img src="https://github.com/halilozel1903/LondonLandmarks/blob/master/Screenshots/London%20Eye%20Map.png" width="350" /><img src="https://github.com/halilozel1903/LondonLandmarks/blob/master/Screenshots/Buckingham%20Palace%20Map.png" width="350" /><br>
 <img src="https://github.com/halilozel1903/LondonLandmarks/blob/master/Screenshots/St-Pauls%20Map.png" width="350" /><img src="https://github.com/halilozel1903/LondonLandmarks/blob/master/Screenshots/Big%20Ben%20Map.png" width="350" /><br>
