@@ -22,6 +22,11 @@ The detail page includes the picture, description and location of the place to v
 <img src="https://github.com/halilozel1903/LondonLandmarks/blob/master/Screenshots/St-Pauls%20Map.png" width="350" /><img src="https://github.com/halilozel1903/LondonLandmarks/blob/master/Screenshots/Big%20Ben%20Map.png" width="350" /><br>
 You can view the place you want to visit using the map.
 
+## Donation 💸 💰
+
+If this project help 💁 you to develop, you can give me a cup of coffee. ☕
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/halilozel1903)
 
 ## License ℹ️
 ```
